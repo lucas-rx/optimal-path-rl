@@ -1,0 +1,12 @@
+PACMAN = "😶"
+VICTORY = "🟩"
+DEFEAT = "🛑"
+WALL = "🔒"
+# WALL = "🧱"
+PATH = "🔵"
+NORMAL = "🔹"
+
+UP = "⏫"
+DOWN = "⏬"
+LEFT = "⏪"
+RIGHT = "⏩"
