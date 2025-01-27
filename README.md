@@ -10,8 +10,9 @@ The project reads the `value-iteration.txt` file or the `Q-Learning.txt` file, d
 You can change the grid dimensions.
 0 is empty, 1 is victory, 2 is defeat, 3 is inaccessible.
 
-For VI only : after the grid, the first row is gamma (0 <= gamma < 1), the second row is the tolerance (early stops the algorithm if two politics are near).
-For QL only : after the grid, the first row is gamma (0 <= gamma < 1), the second row is alpha (weight on update), the third row is the number of iterations.
+For VI only : after the grid, the first row is gamma (0 <= gamma < 1, importance of the future rewards), the second row is the tolerance (early stops the algorithm if two politics are similar).
+
+For QL only : after the grid, the first row is gamma (0 <= gamma < 1), the second row is alpha (learning rate), the third row is the number of iterations.
 
 ## Value Iteration
 
